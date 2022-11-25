@@ -1,0 +1,35 @@
+name: prayer_beads
+description: Tasbih Zikr
+
+publish_to: "none"
+
+version: 1.2.1+5
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+  get_storage: ^2.0.2
+  vibration: ^1.7.3
+  animated_drawer: ^0.0.4
+  url_launcher: ^6.0.3
+  share_plus: ^3.0.4
+  carousel_slider: ^4.0.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/beads/
+    - assets/zikr/
